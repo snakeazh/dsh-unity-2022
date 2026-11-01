@@ -1,0 +1,60 @@
+{
+  "name": "dsh-unity-2022",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: drive the Unity 2022.3 Editor as agent tools - scene hierarchy, GameObjects, components, serialized properties, Play mode, console logs, screenshots, builds and C# eval - through a bundled loopback bridge package.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "icon": "icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snakeazh/dsh-unity-2022.git"
+  },
+  "homepage": "https://github.com/snakeazh/dsh-unity-2022#readme",
+  "bugs": {
+    "url": "https://github.com/snakeazh/dsh-unity-2022/issues"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "unity",
+    "unity-editor",
+    "unity3d",
+    "game-development",
+    "game-engine"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "unity-package",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "market",
+    "tools",
+    "assets",
+    "screenshots.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

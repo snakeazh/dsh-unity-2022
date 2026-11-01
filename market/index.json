@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Unity 2022",
+    "zh": "DSH Unity 2022"
+  },
+  "description": {
+    "en": "Agent tools for the Unity 2022.3 Editor. Host this file anywhere over HTTPS and add its URL as an index source in DSH (Plugins -> Discover -> Index sources), or pass it to the plugin_market tool.",
+    "zh": "把 Unity 2022.3 编辑器交给 agent。把这个文件放在任意 HTTPS 地址，然后在 DSH 的“插件 → 发现 → 索引源”里加上它的 URL，或直接传给 plugin_market 工具。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-unity-2022",
+      "title": {
+        "en": "Unity 2022.3",
+        "zh": "Unity 2022.3"
+      },
+      "description": {
+        "en": "Drive the Unity 2022.3 Editor from the agent: scene hierarchy, GameObjects, components, serialized properties, Play mode, console logs, screenshots, builds and C# eval, through a self-installing loopback bridge package.",
+        "zh": "让 agent 直接操作 Unity 2022.3 编辑器：场景层级、GameObject、组件、序列化属性、Play 模式、控制台日志、截图、构建与 C# 求值，桥接包会自动装进工程。"
+      },
+      "icon": "icon.svg",
+      "metadata": {
+        "keywords": [
+          "unity",
+          "unity-editor",
+          "game-development",
+          "game-engine",
+          "editor-automation"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793546821,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}

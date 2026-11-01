@@ -1,0 +1,5 @@
+# Bundle layer for dsh-unity-2022. Override this row's config from your profile's
+# cordis.patch.yml; a patch replaces the whole config value, so restate every key you need.
+- insert:
+    - id: unity-2022
+      name: 'dsh-unity-2022'
