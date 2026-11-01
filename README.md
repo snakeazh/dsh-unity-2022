@@ -19,12 +19,16 @@ and no domain reloads for `unity_eval`.
 ## Install
 
 ```powershell
-# from this repository checkout
-plugin_manager install_bundle C:\path\to\unity-2022-plugin
+git clone https://github.com/snakeazh/dsh-unity-2022
+plugin_manager install_bundle .\dsh-unity-2022
 ```
 
 The plugin row `unity-2022` is inserted by `cordis.patch.yml`; the tools appear
 in the next turn. To remove it again: `plugin_manager remove_bundle dsh-unity-2022`.
+
+The plugin sits in the [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/11083)
+review queue, so once the entry lands you can also install it from the DSH
+plugin directory with one click.
 
 ## Using it on other projects
 
