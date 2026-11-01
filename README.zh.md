@@ -17,12 +17,15 @@
 ## 安装
 
 ```powershell
-# 在本仓库目录下
-plugin_manager install_bundle C:\path\to\unity-2022-plugin
+git clone https://github.com/snakeazh/dsh-unity-2022
+plugin_manager install_bundle .\dsh-unity-2022
 ```
 
 `cordis.patch.yml` 会插入 `unity-2022` 这一行，工具在下一轮对话生效。卸载：
 `plugin_manager remove_bundle dsh-unity-2022`。
+
+插件已在 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/11083)
+精选列表的审核队列里；通过后可以直接在 DSH 的「插件 → 发现」里一键安装。
 
 ## 在其他工程里使用
 
